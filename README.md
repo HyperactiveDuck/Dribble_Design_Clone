@@ -1,3 +1,2 @@
-# zehracode
+# FREED App Clone
 
-A new Flutter project.
