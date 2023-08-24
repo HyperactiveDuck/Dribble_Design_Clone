@@ -12,7 +12,7 @@ TextStyle titleTextStyle =
 
 const Color topBarItemColor = Color.fromARGB(255, 0, 0, 0);
 
-const Color scaffold2BackgroundColor = Color.fromARGB(255, 249, 168, 37);
+const Color scaffold2BackgroundColor = Color.fromARGB(255, 255, 253, 88);
 const Color bottomBarItemColor = Color.fromARGB(255, 0, 0, 0);
 const Color bottomBarColor = Color.fromARGB(255, 238, 238, 238);
 
