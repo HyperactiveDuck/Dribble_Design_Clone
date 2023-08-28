@@ -7,12 +7,12 @@ Container dateView() {
   return Container(
     decoration: const BoxDecoration(
       borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(20), topRight: Radius.circular(20)),
+        topLeft: Radius.circular(20),
+        topRight: Radius.circular(20),
+      ),
       color: dateViewColor,
     ),
     child: const Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         SizedBox(
           height: 30,

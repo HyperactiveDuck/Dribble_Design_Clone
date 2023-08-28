@@ -4,6 +4,7 @@ import 'package:zehracode/widgets/bottom_items.dart';
 import 'package:zehracode/widgets/landing_button.dart';
 import 'package:zehracode/constants.dart';
 import 'package:zehracode/widgets/top_bar.dart';
+import 'package:zehracode/widgets/profile_picture.dart';
 
 class ThePage extends StatefulWidget {
   const ThePage({super.key});
@@ -27,17 +28,7 @@ class _ThePageState extends State<ThePage> {
               flex: 2,
               child: Column(
                 children: [
-                  CircleAvatar(
-                    minRadius: 40,
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(50),
-                      child: Image.asset(
-                        'assets/images/avatar.png',
-                        height: 90,
-                        fit: BoxFit.scaleDown,
-                      ),
-                    ),
-                  ),
+                  const ProfilePicture(),
                   const SizedBox(
                     height: 10,
                   ),
